@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import { experiences } from '../../data/constants';
+import { achievements } from '../../data/constants';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineDot from '@mui/lab/TimelineDot';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
-import ExperienceCard from '../Cards/ExperienceCard';
+import AchievementCard from '../Cards/AchievementCard';
 
 const Container = styled.div`
     display: flex;
@@ -71,19 +71,19 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-function Experience() {
+function Achievements() {
   return (
-    <Container id='experience'>
+    <Container id='achievements'>
         <Wrapper>
-            <Title>Experience</Title>
-            <Desc>Here are the companies I have worked in</Desc>
+            <Title>Achievements & Certifications</Title>
+            <Desc>Here are some of the Achievements and Certifications that I have aquired throughout my learning process</Desc>
             <TimelineSection>
                 <Timeline>
-                    {experiences.map((experience,index) => (
+                    {achievements.map((achievement,index) => (
                         <TimelineItem>
                             <TimelineSeparator>
                                 <TimelineDot variant='outlined' color='secondary'/>
-                                {index !== experiences.length - 1 && (
+                                {index !== achievements.length - 1 && (
                                     <TimelineConnector/>
                                     
                                 )}
@@ -92,7 +92,7 @@ function Experience() {
                             
                             {/* <TimelineContent>Hello</TimelineContent> */}
                             <TimelineContent sx={{ py: "12px", px: 2}}>
-                                    <ExperienceCard experience={experience}/>
+                                    <AchievementCard achievement={achievement}/>
                                     
                                 </TimelineContent>
                         </TimelineItem>
@@ -105,4 +105,4 @@ function Experience() {
   )
 }
 
-export default Experience
+export default Achievements

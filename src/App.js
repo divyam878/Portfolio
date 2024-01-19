@@ -11,6 +11,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Achievements from './components/Achievements';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -34,6 +35,7 @@ function App() {
         <Wrapper>
         <Skills/>
         <Experience/>
+        <Achievements/>
         <Projects/>
         </Wrapper>
         

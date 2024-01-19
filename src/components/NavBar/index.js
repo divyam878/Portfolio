@@ -220,6 +220,16 @@ function NavBar() {
 					>
 						<Navlink>Experience</Navlink>
 					</ScrollLink>
+
+					<ScrollLink
+						to="achievements"
+						spy={true}
+						offset={-0}
+						smooth={true}
+						duration={500}
+					>
+						<Navlink>Achievements</Navlink>
+					</ScrollLink>
 					<ScrollLink
 						to="projects"
 						spy={true}
@@ -281,6 +291,17 @@ function NavBar() {
 						>
 							<MobileMenuLink>Experience</MobileMenuLink>
 						</ScrollLink>
+
+						<ScrollLink
+							to="achievements"
+							spy={true}
+							offset={-50}
+							smooth={true}
+							duration={500}
+						>
+							<MobileMenuLink>Achievements</MobileMenuLink>
+						</ScrollLink>
+
 						<ScrollLink
 							to="projects"
 							spy={true}
