@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/divyam878",
     resume:
-      "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+      "https://drive.google.com/file/d/1t78iogvdXXJ17nS5sjdDQqSAfJsXgz1e/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/divyam-goyal-792410175/",
     
   };
@@ -237,8 +237,7 @@ export const Bio = {
       id: 9,
       title: "Trip Management",
       date: "Sept 2023 - Dec 2023",
-      description:
-        "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      description: "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
       image: "https://imgur.com/mclBRiF.jpg",
       tags: [
         "HTML",
@@ -249,8 +248,8 @@ export const Bio = {
         "json",
       ],
       category: "android app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "",
+      webapp: "",
     },
     {
       id: 12,
@@ -270,8 +269,8 @@ export const Bio = {
         "git",
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Trackify",
-      webapp: "https://trackify.duckdns.org",
+      github: "",
+      webapp: "",
     },
     {
       id: 11,
@@ -283,8 +282,8 @@ export const Bio = {
         "https://imgur.com/NkaFeyb.jpg",
       tags: ["Python", "Keras", "TensorFlow", "Matplotlib", "seaborn"],
       category: "machine learning",
-      github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      github: "",
+      webapp: "",
     },
     {
       id: 0,
@@ -302,22 +301,9 @@ export const Bio = {
       "json",
     ],
       category: "android app",
-      github: "https://github.com/rishavchanda/Podstream",
-      webapp: "https://podstream.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+      github: "",
+      webapp: "",
+      
     },
     {
       id: 1,
@@ -336,8 +322,8 @@ export const Bio = {
         
       ],
       category: "web app",
-      github: "https://github.com/rishavchanda/Project-Management-App",
-      webapp: "https://vexa-app.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 2,
@@ -349,22 +335,10 @@ export const Bio = {
         "https://imgur.com/1aRA8NM.jpg",
       tags: ["HTML", "CSS", "Javascript"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-      webapp: "https://brain-tumor.netlify.app/",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+      github: "",
+      webapp: "",
+      
+      
     },
     {
       id: 3,
@@ -376,8 +350,8 @@ export const Bio = {
         "https://imgur.com/ori2zp1.jpg",
       tags: ["HTML", "CSS", "Javascript"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Buckoid-Android-App",
-      webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+      github: "",
+      webapp: "",
     },
     {
       id: 10,
@@ -394,8 +368,8 @@ export const Bio = {
       "Google Appscript",
       "json",],
       category: "android app",
-      github: "https://github.com/rishavchanda/Job-finder-App",
-      webapp: "https://github.com/rishavchanda/Job-finder-App",
+      github: "",
+      webapp: "",
     },
     {
       id: 4,
@@ -412,8 +386,8 @@ export const Bio = {
       "Google Appscript",
       "json",],
       category: "android app",
-      github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-      webapp: "https://whatsapp-clone-rishav.web.app",
+      github: "",
+      webapp: "",
     },
     {
       id: 5,
@@ -429,8 +403,8 @@ export const Bio = {
       "Javascript",
       "Redux",],
       category: "web app",
-      github: "https://github.com/rishavchanda/Todo-Web-App",
-      webapp: "https://rishav-react-todo.netlify.app/",
+      github: "",
+      webapp: "",
     },
     {
       id: 6,
@@ -442,8 +416,8 @@ export const Bio = {
         "https://imgur.com/xFW13VU.jpg",
       tags: ["HTML", "CSS", "Javascript"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Breaking-Bad",
-      webapp: "https://breaking-bad-webapp.netlify.app",
+      github: "",
+      webapp: "",
     },
     {
       id: 7,
@@ -460,8 +434,8 @@ export const Bio = {
       "Google Appscript",
       "json",],
       category: "android app",
-      github: "https://github.com/rishavchanda/Quiz-Earn",
-      webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      github: "",
+      webapp: "",
     },
     {
       id: 8,
@@ -473,8 +447,8 @@ export const Bio = {
         "https://imgur.com/ofQpkAV.jpg",
       tags: ["HTML", "CSS", "Javascript"],
       category: "web app",
-      github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-      webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      github: "",
+      webapp: "",
     },
     
   ];
